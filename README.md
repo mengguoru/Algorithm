@@ -1,2 +1,2 @@
-# OJ
-my Online Judge practices.
+# Algorithm-Practices
+my Algorithm practices
