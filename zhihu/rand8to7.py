@@ -1,7 +1,9 @@
 # my solution : rand8() to rand7()
 # 
+# status : failed: 8 is still maybe return from function f()
 # author : mengguoru
 # date   : 2016/6/5
+# question from : https://www.zhihu.com/question/47038069
 import random
 
 def f(pivot):
