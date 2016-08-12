@@ -9,7 +9,7 @@ vector<int> intersection(vector<int>&nums1, vector<int>&nums2)
 
 	sort(nums1.begin(), nums1.end());
 	sort(nums2.begin(), nums2.end());
-	for (int i_a = 0, i_b = 0; i_a <= nums1.size() && i_b <= nums2.size();)
+	for (int i_a = 0, i_b = 0; i_a < nums1.size() && i_b < nums2.size();)
 	{
 		if (nums1[i_a] == nums2[i_b]) {
 			nums3.push_back(nums1[i_a]);
@@ -30,7 +30,7 @@ int main() {
 	vector<int> c = intersection(a, b);
 
 	for (auto &i : c) {
-		cout << c[i] << endl;
+		cout << i << endl;
 	}
 	getchar();
 	return 0;
